@@ -8,6 +8,8 @@ to result in exactly n H characters in the file
     Returns an integer
     If n is impossible to achieve, return 0
 """
+
+
 def minOperations(n):
     """Calculate fewest number of operations needed to
     result inexactly n H characters in the file"""
