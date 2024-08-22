@@ -9,18 +9,19 @@ def makeChange(coins, total):
     Determine the fewest number of coins needed to meet a given amount `total`.
 
     Args:
-    coins (list): A list of integers representing the denominations 
+    coins (list): A list of integers representing the denominations
     of the available coins.
     total (int): The total amount of money for which change is to be made.
 
     Returns:
     int: The minimum number of coins needed to make up the total.
          Returns 0 if total is 0 or less.
-         Returns -1 if it is not possible to make up the total with the given coins.
+         Returns -1 if it is not possible to make up the total 
+         with the given coins.
     """
     if total <= 0:
         return 0
-    
+
     dp = [float('inf')] * (total + 1)
     dp[0] = 0
     
