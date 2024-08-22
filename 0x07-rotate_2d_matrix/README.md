@@ -1,9 +1,5 @@
 # 0x07. Rotate 2D Matrix
 
-## Curriculum
-Short Specializations
-Average: 127.27%
-
 ## Project Overview
 This project is focused on implementing an in-place algorithm to rotate an `n x n` 2D matrix by 90 degrees clockwise. It challenges you to manipulate matrices and optimize your solution to operate in-place, which is a crucial aspect of efficient algorithm design.
 
@@ -27,16 +23,6 @@ This project is focused on implementing an in-place algorithm to rotate an `n x 
    - Using nested loops to iterate through 2D data structures like matrices.
    - Modifying elements within nested loops to achieve the desired rotation.
 
-### Resources:
-- **Python Official Documentation:**
-  - [Data Structures](https://docs.python.org/3/tutorial/datastructures.html) (list comprehensions, nested list comprehension)
-  - [More on Lists](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)
-- **GeeksforGeeks Articles:**
-  - [Inplace rotate square matrix by 90 degrees](https://www.geeksforgeeks.org/inplace-rotate-square-matrix-by-90-degrees/)
-  - [Transpose a matrix in Single line in Python](https://www.geeksforgeeks.org/transpose-matrix-single-line-python/)
-- **TutorialsPoint:**
-  - [Python Lists](https://www.tutorialspoint.com/python/python_lists.htm) for basics of list manipulation in Python.
-
 ### Requirements
 - **General**
   - Allowed editors: `vi`, `vim`, `emacs`
@@ -56,20 +42,3 @@ This project is focused on implementing an in-place algorithm to rotate an `n x 
 - **Requirements:**
   - Do not return anything. The matrix must be edited in-place.
   - Assume the matrix will have 2 dimensions and will not be empty.
-
-### Example
-```python
-#!/usr/bin/python3
-"""
-Test 0x07 - Rotate 2D Matrix
-"""
-rotate_2d_matrix = __import__(0-rotate_2d_matrix).rotate_2d_matrix
-
-if __name__ == "__main__":
-    matrix = [[1, 2, 3],
-              [4, 5, 6],
-              [7, 8, 9]]
-
-    rotate_2d_matrix(matrix)
-    print(matrix)
-
