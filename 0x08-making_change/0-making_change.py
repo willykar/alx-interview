@@ -9,7 +9,8 @@ def makeChange(coins, total):
     Determine the fewest number of coins needed to meet a given amount `total`.
 
     Args:
-    coins (list): A list of integers representing the denominations of the available coins.
+    coins (list): A list of integers representing the denominations 
+    of the available coins.
     total (int): The total amount of money for which change is to be made.
 
     Returns:
@@ -29,7 +30,7 @@ def makeChange(coins, total):
     
     return dp[total] if dp[total] != float('inf') else -1
 
-# Testing the function
+
 if __name__ == "__main__":
     print(makeChange([1, 2, 25], 37))  # Output: 7
     print(makeChange([1256, 54, 48, 16, 102], 1453))  # Output: -1
