@@ -16,7 +16,7 @@ def makeChange(coins, total):
     Returns:
     int: The minimum number of coins needed to make up the total.
          Returns 0 if total is 0 or less.
-         Returns -1 if it is not possible to make up the total 
+         Returns -1 if it is not possible to make up the total
          with the given coins.
     """
     if total <= 0:
@@ -24,11 +24,11 @@ def makeChange(coins, total):
 
     dp = [float('inf')] * (total + 1)
     dp[0] = 0
-    
+
     for coin in coins:
         for i in range(coin, total + 1):
             dp[i] = min(dp[i], dp[i - coin] + 1)
-    
+
     return dp[total] if dp[total] != float('inf') else -1
 
 
