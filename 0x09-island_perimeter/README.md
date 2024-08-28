@@ -23,8 +23,10 @@ The function `island_perimeter(grid)` will return the perimeter of the island de
 ## Function Prototype
 
 **Python**
+```bash
 def island_perimeter(grid):
     """Calculate the perimeter of an island in a grid."""
+```
 
 **Parameters**:
 grid: 
