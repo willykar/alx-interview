@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''prime_game module''
+'''prime_game module'''
 
 
 def sieve_of_eratosthenes(n):
