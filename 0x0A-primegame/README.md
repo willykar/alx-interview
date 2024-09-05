@@ -27,6 +27,7 @@ The challenge covers important concepts such as:
 
 ```python
 def isWinner(x, nums)
+```
 x: Number of rounds
 nums: Array of integers representing the set size for each round
 The function should return the name of the player with the most wins or None if it's a tie.
